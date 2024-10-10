@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #5372F0; 
+}
+
+.container{
+    width: 690px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 30px;
+
+}
+
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid #bbb;
+
+}
+.wrapper,.textinput{
+    display: flex;
+    border-bottom: 1px solid ;
+}
+
+.textinput textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+
+}
+
+textarea{
+    border-radius: 0px;
+    border-left: 1px solid ;
+}
+.controls{
+    display: flex;
+    list-style: none;
+    padding: 12px 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.controls .icons{
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+
+.controls .rowselect{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    padding: 14px;
+     margin-top: 20px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     border-radius: 5px;
+     background: #5372F0;
+     color: #fff;
+     font-size: 17px;
+}
+
+select{
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+}
